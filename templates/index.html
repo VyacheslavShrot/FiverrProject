@@ -1,0 +1,500 @@
+{% load crispy_forms_filters %}
+{% load static %}
+
+<!DOCTYPE html>
+<br xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michaelis productions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800&family=Raleway:wght@400;500;700;800&display=swap"
+          rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="{% static 'img/icon/favicon/favicon.ico' %}">
+    <link rel="stylesheet" href="{% static 'css/input2.css' %}">
+    <link rel="stylesheet" href="{% static 'css/input.css' %}">
+</head>
+<body>
+<div class="header">
+    <div class="container-wide">
+        <div class="row">
+            <img src="{% static '/img/icon/Group%201%20(2).png' %}" alt="">
+            <div class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#form">Form</a></li>
+                    <li><a href="#company">Our Team</a></li>
+                </ul>
+            </div>
+            <a href="" class="login">Worldwide</a>
+        </div>
+
+        <div class="box">
+            <div class="img-box">
+                <img src="{% static 'img/pic/first.png' %}" alt="" class="box-img">
+                <img src="{% static 'img/pic/second.png' %}" alt="" class="box-img1">
+            </div>
+            <div class="text-box">
+                <div class="box-title">Documentaries <br>and interviews worldwide</div>
+                <h1 class="box-wrap">We engaged in creating interviews and documentaries about current topics.</h1>
+                <a style="text-decoration: none" href="#form">
+                    <div class="box-bottom " style="width: 250px;">
+                        <p class="bottom-text">Start your Own Film!</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div id="home" class="title">Our interviews</div>
+
+
+<main>
+    <div class="container">
+        <div class="content">
+            <div class="content-text" data-number="01">
+                <div class="content-title">
+                    interviews
+                </div>
+                <div class="content-wrap">
+                    Ukraine
+                </div>
+                <p class="text">
+                    First part
+                </p>
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+
+            <div class="content-img">
+                <img src="{% static 'img/pic/Снимок%20экрана%202023-02-18%20161702%201.png' %}" width="800px"
+                     alt="What level of  hiker are you?">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="content-text" data-number="02">
+            <div class="content-title">
+                interviews
+            </div>
+            <div class="content-wrap">
+                Ukraine
+            </div>
+            <p class="text">
+                Second part
+            </p>
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+        </div>
+        <div class="content-img">
+            <a style="text-decoration: none" href="https://www.youtube.com/@MichaelisProductions1/featured">
+                <img src="{% static 'img/pic/Снимок%20экрана%202023-02-18%20161420%202.png' %}" width="800px"
+                     alt="What level of  hiker are you?">
+            </a>
+        </div>
+    </div>
+    </div>
+
+    <div class="content">
+        <div class="content-text" data-number="03">
+            <div class="content-title">
+                interviews
+            </div>
+            <div class="content-wrap">
+                Israel
+            </div>
+            <div class="line">
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+                <div class="lines"></div>
+            </div>
+        </div>
+        <div class="content-img">
+            <img src="{% static 'img/pic/pic3.png' %}" width="800px" alt="What level of  hiker are you?">
+        </div>
+    </div>
+    </div>
+
+    <div class="content">
+        <div class="content-text" data-number="04">
+            <div class="content-title">
+                interviews
+            </div>
+            <div class="content-wrap">
+                Taiwan
+            </div>
+
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+        </div>
+        <div class="content-img">
+            <img src="{% static 'img/pic/pic4.png' %}" width="800px" alt="What level of  hiker are you?">
+        </div>
+    </div>
+    </div>
+    <a style="text-decoration: none" href="https://www.youtube.com/@MichaelisProductions1/featured">
+        <div class="box-bottom" style="margin-left: 1200px;">
+            <p class="bottom-text" style="margin-left: 28px">YouTube link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </div>
+    </a>
+</main>
+<div class="doc">
+    <div class="title1">Our documentaries</div>
+    <div class="img-doc">
+        <img src="{% static 'img/pic/9C6FC1C6-E4A1-451D-AAC5-B9112F56CCA6%201.png' %}" alt="" class="box-doc">
+        <img src="{% static 'img/pic/girl.png' %}" alt="" class="box-doc1">
+    </div>
+    <div class="doc-text">
+        Oleksandr, 21
+    </div>
+    <div class="doc-text">
+        Arina, 24
+    </div>
+
+</div>
+
+<div id="form" class="forma">
+    <div class="textqqq" style="
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 143%;
+        /* or 57px */
+        
+
+        align-items: center;
+        text-align: center;
+        
+        color: #5AC0C8;">Forma
+    </div>
+    <div class="Registration" style="
+
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 143%;
+    /* or 46px */
+    padding-left: 50px;
+    
+    
+        color: #FFFFFF;">Registration
+    </div>
+    <div class="personal" style="position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 58px;
+    top: 132px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 36px;
+    /* identical to box height, or 237% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+    color: #00ECFF;">Personal information
+    </div>
+
+    <div class="boxx">
+        <form enctype="multipart/form-data" method="POST">
+            {% csrf_token %}
+            <div class="container">
+                <div class="row" style="padding-top: 50px;">
+                    <div class="footer-col">
+                        <div class="boxxx">
+                            <div class="texttt">
+                                <span class="bar"></span>
+                                <label class="label">
+                                    <span class="label-char" style="--index: 0">N</span>
+                                    <span class="label-char" style="--index: 1">a</span>
+                                    <span class="label-char" style="--index: 2">m</span>
+                                    <span class="label-char" style="--index: 3">e</span>
+                                </label>
+                                <br> <input type="text" name="name" maxlength="50" required id="name"
+                                            placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="boxxx" style="margin-top:116px ;">
+                            <div class="texttt1"><span class="bar"></span>
+                                <label class="label">
+                                    <span class="label-char" style="--index: 0">S</span>
+                                    <span class="label-char" style="--index: 1">u</span>
+                                    <span class="label-char" style="--index: 2">r</span>
+                                    <span class="label-char" style="--index: 3">n</span>
+                                    <span class="label-char" style="--index: 4">a</span>
+                                    <span class="label-char" style="--index: 5">m</span>
+                                    <span class="label-char" style="--index: 6">e</span>
+                                </label> <br> <input type="text" name="surname" maxlength="50" required
+                                                     id="id_surname" placeholder="Surname"></div>
+                        </div>
+                        <div class="boxxx" style="margin-top:280px ;">
+                            <div class="texttt5"><label class="label">
+                                <span class="label-char" style="--index: 0">S</span>
+                                <span class="label-char" style="--index: 1">c</span>
+                                <span class="label-char" style="--index: 2">r</span>
+                                <span class="label-char" style="--index: 3">e</span>
+                                <span class="label-char" style="--index: 4">e</span>
+                                <span class="label-char" style="--index: 5">n</span>
+                                <span class="label-char" style="--index: 6">p</span>
+                                <span class="label-char" style="--index: 4">l</span>
+                                <span class="label-char" style="--index: 5">a</span>
+                                <span class="label-char" style="--index: 6">y</span>
+                            </label> <br> <input type="text" name="screen_play" placeholder="Sreenplay" maxlength="500"
+                                                 required id="id_screen_play"></div>
+                        </div>
+                        <div class="boxxx" style="margin-top:397px ;">
+                            <div class="texttt6">Title of the documentary <br> <input type="text" name="title_of_doc"
+                                                                                      placeholder="Title of doc"
+                                                                                      maxlength="50" required
+                                                                                      id="id_title_of_doc"></div>
+                        </div>
+                        <div class="boxxx" style="margin-top:510px ;">
+                            <div class="texttt7"><label class="label">
+                                <span class="label-char" style="--index: 0">B</span>
+                                <span class="label-char" style="--index: 1">u</span>
+                                <span class="label-char" style="--index: 2">d</span>
+                                <span class="label-char" style="--index: 3">g</span>
+                                <span class="label-char" style="--index: 4">e</span>
+                                <span class="label-char" style="--index: 5">t</span>
+                            </label> <br> <input type="number" name="budget" required id="id_budget"
+                                                 placeholder="Budget"></div>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <div class="boxxx" style="margin-left:469px ;">
+                            <div class="texttt2"><label class="label">
+                                <span class="label-char" style="--index: 0">E</span>
+                                <span class="label-char" style="--index: 1">m</span>
+                                <span class="label-char" style="--index: 2">a</span>
+                                <span class="label-char" style="--index: 3">i</span>
+                                <span class="label-char" style="--index: 4">l</span>
+                            </label> <br> <input type="email" name="email" required
+                                                 id="id_email" placeholder="Email"></div>
+                        </div>
+                        <div class="boxxx" style="margin-left:469px ; margin-top:116px ;">
+                            <div class="texttt3">Telephone number <br> <input type="tel" name="phone_number"
+                                                                              required
+                                                                              id="id_phone_number"
+                                                                              placeholder="+123-456-789-00"></div>
+                        </div>
+                        <div class="boxxx" style="margin-left:469px ; margin-top:280px ;">
+                            <div class="texttt8">Description of the project <br> <input type="text" name="desc_project"
+                                                                                        maxlength="500"
+                                                                                        required id="id_desc_project"
+                                                                                        placeholder="Description">
+                            </div>
+                        </div>
+                        <div class="boxxx" style="margin-left:469px ; margin-top:397px ;">
+                            <div class="texttt9">How many people <br> <input type="number" name="amount_people"
+                                                                             required id="id_amount_people"
+                                                                             placeholder="Amount people"></div>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <div class="boxxx" style="margin-left:938px ;">
+                            <div class="texttt4"><label class="label">
+                                <span class="label-char" style="--index: 0">C</span>
+                                <span class="label-char" style="--index: 1">o</span>
+                                <span class="label-char" style="--index: 2">u</span>
+                                <span class="label-char" style="--index: 3">n</span>
+                                <span class="label-char" style="--index: 4">t</span>
+                                <span class="label-char" style="--index: 5">r</span>
+                                <span class="label-char" style="--index: 6">y</span>
+                            </label> <br> <input type="text" name="country" maxlength="30" required
+                                                 id="id_country" placeholder="Country"></div>
+                        </div>
+                        <div class="boxxx" style="margin-left:938px ;margin-top:280px ;">
+                            <div class="texttt10"><label class="label">
+                                <span class="label-char" style="--index: 0">D</span>
+                                <span class="label-char" style="--index: 1">e</span>
+                                <span class="label-char" style="--index: 2">a</span>
+                                <span class="label-char" style="--index: 3">d</span>
+                                <span class="label-char" style="--index: 4">l</span>
+                                <span class="label-char" style="--index: 5">i</span>
+                                <span class="label-char" style="--index: 6">n</span>
+                                <span class="label-char" style="--index: 4">e</span>
+                            </label> <br> <input type="date" name="dead_line" placeholder="Dead line" required
+                                                 id="id_dead_line"></div>
+                        </div>
+                        <div class="boxxx" style="margin-left:938px ;margin-top:397px ;">
+                            <div class="texttt11">Portrait, landscape formatag <br> {{ form.img }}</div>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <div class="film" style="position: absolute;
+   width: 268px;
+   height: 36px;
+   left: 52px;
+   top: 392px;
+   
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 15px;
+   line-height: 36px;
+   /* identical to box height, or 237% */
+   
+   display: flex;
+   align-items: center;
+   letter-spacing: 6px;
+   text-transform: uppercase;
+   
+   color: #00ECFF;
+
+   c">FILM Details
+    </div>
+
+    {% if messages %}
+        <div class="alert">
+            {% for message in messages %}
+                <h1>Thank you for filling out our<br> form.
+                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.6 20.3833C19.4859 21.2816 18.0978 21.7715 16.6667 21.7715C15.2355 21.7715 13.8475 21.2816 12.7333 20.3833C12.393 20.1004 11.9542 19.9643 11.5135 20.005C11.0728 20.0456 10.6662 20.2596 10.3833 20.6C10.1004 20.9404 9.96434 21.3792 10.005 21.8199C10.0456 22.2606 10.2596 22.6671 10.6 22.95C12.3022 24.371 14.4493 25.1494 16.6667 25.1494C18.8841 25.1494 21.0311 24.371 22.7333 22.95C23.0737 22.6671 23.2877 22.2606 23.3284 21.8199C23.369 21.3792 23.2329 20.9404 22.95 20.6C22.8099 20.4315 22.638 20.2922 22.4441 20.1901C22.2502 20.088 22.0381 20.0251 21.8199 20.005C21.3792 19.9643 20.9404 20.1004 20.6 20.3833ZM12.0167 14.2333C12.3289 14.5438 12.7514 14.718 13.1917 14.718C13.632 14.718 14.0544 14.5438 14.3667 14.2333C14.6771 13.9211 14.8513 13.4986 14.8513 13.0583C14.8513 12.618 14.6771 12.1956 14.3667 11.8833C13.4129 10.9783 12.1482 10.4738 10.8333 10.4738C9.51851 10.4738 8.25381 10.9783 7.30001 11.8833C7.12554 12.0327 6.98384 12.2166 6.8838 12.4234C6.78376 12.6302 6.72754 12.8554 6.71868 13.0849C6.70981 13.3144 6.74849 13.5433 6.83228 13.7572C6.91607 13.9711 7.04316 14.1653 7.20559 14.3278C7.36801 14.4902 7.56226 14.6173 7.77614 14.7011C7.99001 14.7849 8.2189 14.8235 8.44843 14.8147C8.67796 14.8058 8.90318 14.7496 9.10996 14.6495C9.31673 14.5495 9.5006 14.4078 9.65001 14.2333C9.80494 14.0771 9.98928 13.9531 10.1924 13.8685C10.3955 13.7839 10.6133 13.7403 10.8333 13.7403C11.0534 13.7403 11.2712 13.7839 11.4743 13.8685C11.6774 13.9531 11.8617 14.0771 12.0167 14.2333ZM26.0333 11.8833C25.0795 10.9783 23.8148 10.4738 22.5 10.4738C21.1852 10.4738 19.9205 10.9783 18.9667 11.8833C18.6936 12.2022 18.551 12.6123 18.5672 13.0318C18.5834 13.4512 18.7572 13.8491 19.0541 14.1459C19.3509 14.4428 19.7488 14.6167 20.1683 14.6329C20.5877 14.6491 20.9978 14.5064 21.3167 14.2333C21.4716 14.0771 21.6559 13.9531 21.859 13.8685C22.0621 13.7839 22.28 13.7403 22.5 13.7403C22.72 13.7403 22.9379 13.7839 23.141 13.8685C23.3441 13.9531 23.5284 14.0771 23.6833 14.2333C23.9956 14.5438 24.418 14.718 24.8583 14.718C25.2987 14.718 25.7211 14.5438 26.0333 14.2333C26.3438 13.9211 26.518 13.4986 26.518 13.0583C26.518 12.618 26.3438 12.1956 26.0333 11.8833ZM16.6667 0C13.3703 0 10.148 0.977483 7.40717 2.80884C4.66635 4.6402 2.53014 7.24317 1.26868 10.2886C0.0072214 13.334 -0.322834 16.6852 0.320253 19.9182C0.96334 23.1512 2.55069 26.1209 4.88156 28.4518C7.21244 30.7827 10.1822 32.37 13.4152 33.0131C16.6482 33.6562 19.9993 33.3261 23.0447 32.0647C26.0902 30.8032 28.6931 28.667 30.5245 25.9262C32.3559 23.1854 33.3333 19.963 33.3333 16.6667C33.3333 14.478 32.9022 12.3107 32.0647 10.2886C31.2271 8.26652 29.9994 6.4292 28.4518 4.88155C26.9041 3.33391 25.0668 2.10625 23.0447 1.26867C21.0226 0.431096 18.8554 0 16.6667 0ZM16.6667 30C14.0296 30 11.4517 29.218 9.25907 27.7529C7.06641 26.2878 5.35745 24.2055 4.34828 21.7691C3.33911 19.3328 3.07507 16.6519 3.58954 14.0655C4.10401 11.479 5.37388 9.10328 7.23858 7.23858C9.10328 5.37388 11.4791 4.104 14.0655 3.58953C16.6519 3.07506 19.3328 3.33911 21.7691 4.34827C24.2055 5.35744 26.2878 7.06641 27.7529 9.25906C29.218 11.4517 30 14.0296 30 16.6667C30 20.2029 28.5952 23.5943 26.0948 26.0948C23.5943 28.5952 20.2029 30 16.6667 30Z"
+                              fill="white"/>
+                    </svg>
+                </h1>
+                <p style="color:#00ECFF">You get answer soon and<br> check please the spam folder<br>
+                    we answer in any hours
+                </p>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    <button type="submit" value="send" class="box-bottom" style="margin-left: 1050px; margin-top: 550px;">
+        <div>
+            <p class="bottom-text">Send</p>
+        </div>
+    </button>
+    </form>
+</div>
+
+<div class="end-title">A few details about our company</div>
+<div id="company" class="end">
+    <img src="{% static 'img/pic/last.png' %}" alt="" class="end-img">
+    <div class="end-text">Michaelis Productions is engaged in creating interviews and docummentaries about current
+        topics. The goal is to interview interesting personalities from various fields and learn their views and
+        opinions on current topics. The interviews are then published in the form of podcasts, videos or articles and
+        can be consumed by a wide audience. Through the project, listeners/readers will have the opportunity to gain new
+        perspectives and insights and engage with current issues in an informative and entertaining way.
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row1">
+            <div class="footer-col" style="font-family: 'Raleway';
+               font-style: normal;
+               font-weight: 700;
+               font-size: 32px;
+               line-height: 143%;">
+                <h4>IMPRESSUM</h4>
+                <div class="p" style="width: 220px; font-family: 'Raleway';
+                   font-style: normal;
+                   font-weight: 500;
+                   font-size: 15px;
+                   line-height: 143%;
+                   color: rgba(95, 205, 210, 0.9);">
+                    Informationspflicht laut § 5 TMG. <br><br>
+
+                    Inhaltlich Verantwortlicher gem.
+                    § 55 II RStV: Robert Michaelis <br><br>
+
+                    Telefon: +49 176 89095949
+                    Mail: support@nearapp.de <br><br>
+
+                    Anschrift:
+                    Galileo Galilei Str.
+                    19063 Schwerin,
+                    Deutschland
+                </div>
+            </div>
+            <div class="footer-col" style="font-family: 'Raleway';
+               font-style: normal;
+               font-weight: 700;
+               font-size: 24px;
+               line-height: 143%;
+               /* or 34px */
+
+               
+               color: #5AC0C8;">
+                <h4>Contact us </h4>
+                <h4>Follow us</h4>
+                <div class="box-bottom" style="width: 150px;">
+                    <a>
+                        <p class="bottom-text" style="margin-right: 30px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Donate</p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="footer-col" style="padding-top:40px  ;">
+                <img src="{% static 'img/icon/Vector.png' %}" alt="" class="text-fot">
+                <div class="hhh" style="
+
+                   
+                   font-family: 'Raleway';
+                   font-style: normal;
+                   font-weight: 400;
+                   font-size: 16px;
+                   line-height: 128%;
+                   /* or 20px */
+                   padding-left: 5px;
+                   display: inline-block;
+                   transform: translateY(-40%);
+                   
+                   color: #FFFFFF;">hi@johndoe.com
+
+                </div>
+                <div class="div" style="padding-top: 35px; "></div>
+                <a style="text-decoration: none" href="https://twitter.com/michaelisprod">
+                    <img src="{% static 'img/icon/Vector-1.png' %}" alt="" class="text-fot">
+                </a>
+                <a style="text-decoration: none" href="https://www.youtube.com/@MichaelisProductions1/featured">
+                    <img src="{% static 'img/icon/Vector-2.png' %}" alt="" class="text-fot"
+                         style="padding-left: 30px;">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

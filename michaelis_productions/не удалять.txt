@@ -1,0 +1,192 @@
+.content{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 105px;
+    padding-right: 200px;
+}
+.content:nth-child(even) {
+    flex-direction: row-reverse;
+    padding-right: 50px;
+    padding-left: 100px;
+    padding-top: 200px;
+    
+}
+.content-text{
+    position: relative;
+    padding-left: 120px;
+    max-width: 782px;
+    
+
+}
+
+.content-text::before{
+    top: 0;
+    left: 0;
+    transform: translateY(-45%);
+    position: absolute;
+    display: block;
+    content: attr(data-number);
+    width: 240px;
+    height: 240px;
+    font-size: 240px;
+    font-weight: 700;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.1);
+}
+.content-title{
+    position: relative;
+    padding-left: 96px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 2.222;
+    letter-spacing: 6px;
+    color: #5AC0C8;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    
+
+
+}
+.content-title::before{
+    position: absolute;
+    width: 72px;
+    left: 0;
+    height: 2px;
+    background-color: #5AC0C8;
+    display: block;
+    content: "";
+    transform: translateY(-50%);
+    top: 50%;
+}
+.content-wrap{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+}
+.text{
+    padding-left: 230px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0;
+}
+
+
+.content-img{
+    width: 984px;
+    height: 562px;
+    padding-top: 220px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <main>
+            <div class="text-log">Our interviews</div>
+            <div class="container">
+                <div class="content">
+                    <div class="content-text" data-number="01">
+                    <div class="content-title">
+                        interviews
+                    </div>
+                    <div class="content-wrap">
+                        Ukraine
+                    </div>
+                    <p class="text">
+                       First part
+                    </p>
+                    </div>
+                    <div class="content-img">
+                        <img src="./img/pic/pic1.png" alt="What level of  hiker are you?">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div class="content-text" data-number="02">
+                    <div class="content-title">
+                        interviews
+                    </div>
+                    <div class="content-wrap">
+                        Ukraine
+                    </div>
+                    <p class="text">
+                       Second part
+                    </p>
+                    </div>
+                    <div class="content-img">
+                        <img src="./img/pic/pic1.png" alt="What level of  hiker are you?">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div class="content-text" data-number="03">
+                    <div class="content-title">
+                        interviews
+                    </div>
+                    <div class="content-wrap">
+                        Ukraine
+                    </div>
+                    <p class="text">
+                       First part
+                    </p>
+                    </div>
+                    <div class="content-img">
+                        <img src="./img/pic/pic1.png" alt="What level of  hiker are you?">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div class="content-text" data-number="04">
+                    <div class="content-title">
+                        interviews
+                    </div>
+                    <div class="content-wrap">
+                        Ukraine
+                    </div>
+                    <p class="text">
+                       First part
+                    </p>
+                    </div>
+                    <div class="content-img">
+                        <img src="./img/pic/pic1.png" alt="What level of  hiker are you?">
+                    </div>
+                </div>
+            </div>
+        </main>
