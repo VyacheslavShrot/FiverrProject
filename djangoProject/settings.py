@@ -131,8 +131,6 @@ EMAIL_HOST_USER = "..."
 EMAIL_HOST_PASSWORD = "..."
 EMAIL_PORT = 587
 EMAIL_FAIL_SILENTLY = True
-# robimch111
-# prxmtalrazicjvei
 
 """
     Form
